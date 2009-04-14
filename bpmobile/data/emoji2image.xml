@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+<img name="BLACK SUN WITH RAYS" src="sun.gif"/>
+<img name="CLOUD" src="cloud.gif"/>
+<img name="UMBRELLA WITH RAIN DROPS" src="rain.gif"/>
+<img name="SNOWMAN" src="snow.gif"/>
+<img name="LIGHTNING SYMBOL" src="thunder.gif"/>
+<img name="CYCLONE" src="typhoon.gif"/>
+<img name="FOG" src="mist.gif"/>
+<img name="CLOSED UMBRELLA" src="sprinkle.gif"/>
+<img name="NIGHT WITH STARS" src="night.gif"/>
+<img name="SUNRISE OVER MOUNTAINS" src="sun.gif"/>
+<img name="SUNRISE" src="sun.gif"/>
+<img name="CITYSCAPE AT DUSK" src=""/>
+<img name="SUNSET OVER BUILDINGS" src="sun.gif"/>
+<img name="RAINBOW" src=""/>
+<img name="SNOWFLAKE" src=""/>
+<img name="PARTLY CLOUDY" src=""/>
+<img name="BRIDGE AT NIGHT" src=""/>
+<img name="NEW MOON" src="newmoon.gif"/>
+<img name="WAXING MOON" src="moon1.gif"/>
+<img name="HALF MOON" src="moon2.gif"/>
+<img name="CRESCENT MOON" src="moon3.gif"/>
+<img name="FULL MOON" src="fullmoon.gif"/>
+<img name="HALF MOON WITH FACE" src=""/>
+<img name="MOON VIEWING CEREMONY" src=""/>
+<img name="SOON WITH RIGHT ARROW ABOVE" src="soon.gif"/>
+<img name="ON WITH DOUBLE POINTING ARROW ABOVE" src="on.gif"/>
+<img name="END WITH LEFT ARROW ABOVE" src="end.gif"/>
+<img name="HOURGLASS" src="sandclock.gif"/>
+<img name="HOURGLASS 2" src=""/>
+<img name="WATCH" src="watch.gif"/>
+<img name="1 OCLOCK" src=""/>
+<img name="2 OCLOCK" src=""/>
+<img name="3 OCLOCK" src=""/>
+<img name="4 OCLOCK" src=""/>
+<img name="5 OCLOCK" src=""/>
+<img name="6 OCLOCK" src=""/>
+<img name="7 OCLOCK" src=""/>
+<img name="8 OCLOCK" src=""/>
+<img name="9 OCLOCK" src=""/>
+<img name="10 OCLOCK" src=""/>
+<img name="11 OCLOCK" src=""/>
+<img name="12 OCLOCK" src=""/>
+<img name="CLOCK SYMBOL" src="clock.gif"/>
+<img name="ARIES" src="aries.gif"/>
+<img name="TAURUS" src="taurus.gif"/>
+<img name="GEMINI" src="gemini.gif"/>
+<img name="CANCER" src="cancer.gif"/>
+<img name="LEO" src="leo.gif"/>
+<img name="VIRGO" src="virgo.gif"/>
+<img name="LIBRA" src="libra.gif"/>
+<img name="SCORPIUS" src="scorpius.gif"/>
+<img name="SAGITTARIUS" src="sagittarius.gif"/>
+<img name="CAPRICORN" src="capricornus.gif"/>
+<img name="AQUARIUS" src="aquarius.gif"/>
+<img name="PISCES" src="pisces.gif"/>
+<img name="OPHIUCUS" src=""/>
+<img name="WATER WAVE" src="wave.gif"/>
+<img name="GREEN EARTH" src=""/>
+<img name="VOLCANO" src=""/>
+<img name="MILKY WAY" src=""/>
+<img name="FOUR LEAFED CLOVER" src="clover.gif"/>
+<img name="TULIP" src="tulip.gif"/>
+<img name="SEEDLING" src="bud.gif"/>
+<img name="MAPLE LEAF" src="maple.gif"/>
+<img name="CHERRY BLOSSOM" src="maple.gif"/>
+<img name="ROSE" src=""/>
+<img name="FALLEN LEAF" src=""/>
+<img name="LEAF FLUTTERING IN WIND" src=""/>
+<img name="YOUNG GREEN LEAF" src=""/>
+<img name="HIBISCUS" src=""/>
+<img name="SUNFLOWER" src=""/>
+<img name="PALM TREE" src=""/>
+<img name="CACTUS" src=""/>
+<img name="EAR OF RICE" src=""/>
+<img name="CORN" src=""/>
+<img name="MUSHROOM" src=""/>
+<img name="CHESTNUT" src=""/>
+<img name="BLOSSOM" src=""/>
+<img name="HERB" src=""/>
+<img name="CHERRIES" src="cherry.gif"/>
+<img name="BANANA" src="banana.gif"/>
+<img name="WHITE APPLE" src="apple.gif"/>
+<img name="TANGERINE" src=""/>
+<img name="STRAWBERRY" src=""/>
+<img name="WATERMELON" src=""/>
+<img name="TOMATO" src=""/>
+<img name="EGGPLANT" src=""/>
+<img name="MELON" src=""/>
+<img name="PINEAPPLE" src=""/>
+<img name="GRAPES" src=""/>
+<img name="PEACH" src=""/>
+<img name="BLACK APPLE" src=""/>
+<img name="EYES" src="eye.gif"/>
+<img name="EAR" src="ear.gif"/>
+<img name="NOSE" src=""/>
+<img name="MOUTH" src=""/>
+<img name="TONGUE" src=""/>
+<img name="LIPSTICK" src="rouge.gif"/>
+<img name="NAIL POLISH" src=""/>
+<img name="FACE MASSAGE" src=""/>
+<img name="HAIR NEEDING A CUT" src=""/>
+<img name="BARBER POLE" src=""/>
+<img name="SILHOUETTE OF BUST" src="shadow.gif"/>
+<img name="BOYS HEAD" src=""/>
+<img name="GIRLS HEAD" src=""/>
+<img name="MANS HEAD" src=""/>
+<img name="WOMANS HEAD" src=""/>
+<img name="FAMILY" src=""/>
+<img name="CHILDREN" src=""/>
+<img name="POLICE" src=""/>
+<img name="WOMAN WITH BUNNY EARS" src=""/>
+<img name="BRIDE WITH VEIL" src=""/>
+<img name="BLOND PERSON" src=""/>
+<img name="MAN WITH LONG MOUSTACHE" src=""/>
+<img name="MAN WITH TURBAN" src=""/>
+<img name="OLDER MAN" src=""/>
+<img name="OLDER WOMAN" src=""/>
+<img name="BABY" src=""/>
+<img name="CONSTRUCTION WORKER" src=""/>
+<img name="PRINCESS" src=""/>
+<img name="RED FACED OGRE" src=""/>
+<img name="LONG NOSED GOBLIN" src=""/>
+<img name="GHOST" src=""/>
+<img name="ANGEL" src=""/>
+<img name="EXTRATERRESTRIAL ALIEN" src=""/>
+<img name="ALIEN MONSTER" src=""/>
+<img name="DEVIL" src=""/>
+<img name="SKULL" src=""/>
+<img name="NEWSCASTER" src=""/>
+<img name="YEOMAN OF THE GUARD" src=""/>
+<img name="DANCER" src=""/>
+<img name="DOG" src="dog.gif"/>
+<img name="CAT" src="cat.gif"/>
+<img name="SNAIL" src="snail.gif"/>
+<img name="BABY CHICK" src="chick.gif"/>
+<img name="BABY CHICK 2" src=""/>
+<img name="PENGUIN" src="penguin.gif"/>
+<img name="FISH" src="fish.gif"/>
+<img name="HORSE" src="horse.gif"/>
+<img name="PIG" src="pig.gif"/>
+<img name="TIGER" src=""/>
+<img name="BEAR" src=""/>
+<img name="MOUSE" src=""/>
+<img name="WHALE" src=""/>
+<img name="MONKEY FACE" src=""/>
+<img name="OCTOPUS" src=""/>
+<img name="SPIRAL SHELL" src=""/>
+<img name="DOLPHIN" src=""/>
+<img name="BIRD" src=""/>
+<img name="TROPICAL FISH" src=""/>
+<img name="HAMSTER" src=""/>
+<img name="CENTIPEDE" src=""/>
+<img name="ELEPHANT" src=""/>
+<img name="KOALA" src=""/>
+<img name="MONKEY" src=""/>
+<img name="SHEEP" src=""/>
+<img name="FOX" src=""/>
+<img name="COW" src=""/>
+<img name="RABBIT" src=""/>
+<img name="SNAKE" src=""/>
+<img name="CHICKEN" src=""/>
+<img name="BOAR" src=""/>
+<img name="CAMEL" src=""/>
+<img name="FROG" src=""/>
+<img name="POODLE" src=""/>
+<img name="BLOWFISH" src=""/>
+<img name="ANT" src=""/>
+<img name="DOG PRINTS" src=""/>
+<img name="TURTLE" src=""/>
+<img name="HATCHING CHICK" src=""/>
+<img name="CHINESE ZODIAC DRAGON" src=""/>
+<img name="PANDA" src=""/>
+<img name="PIGS NOSE" src=""/>
+<img name="HONEY BEE" src=""/>
+<img name="LADYBUG" src=""/>
+<img name="CRAB" src=""/>
+<img name="ANGRY FACE" src="angry.gif"/>
+<img name="ANGUISHED FACE" src=""/>
+<img name="ASTONISHED FACE" src=""/>
+<img name="DISAPPOINTED FACE" src="despair.gif"/>
+<img name="DIZZY FACE" src="wobbly.gif"/>
+<img name="EXASPERATED FACE" src=""/>
+<img name="EXPRESSIONLESS FACE" src="gawk.gif"/>
+<img name="FACE WITH HEART SHAPED EYES" src="lovely.gif"/>
+<img name="FACE WITH LOOK OF TRIUMPH" src=""/>
+<img name="FACE WINKING WITH STUCK OUT TONGUE" src="wink.gif"/>
+<img name="FACE WITH STUCK OUT TONGUE" src=""/>
+<img name="FACE WITH YUMMY LOOK" src="delicious.gif"/>
+<img name="FACE WITH PUCKERED LIPS" src=""/>
+<img name="FACE WITH PUCKERED LIPS 2" src=""/>
+<img name="FACE WITH A MASK" src=""/>
+<img name="FEVERISH FACE" src=""/>
+<img name="HAPPY FACE WITH OPEN MOUTH" src="happy01.gif"/>
+<img name="HAPPY FACE WITH OPEN MOUTH AND COLD SWEAT" src="coldsweats01.gif"/>
+<img name="HAPPY FACE WITH OPEN MOUTH AND CLOSED EYES" src="happy02.gif"/>
+<img name="HAPPY FACE WITH GRIN" src="bleah.gif"/>
+<img name="HAPPY AND SAD FACE" src=""/>
+<img name="HAPPY FACE WITH WIDE MOUTH AND RAISED EYEBROWS" src=""/>
+<img name="HAPPY FACE WITH WIDE MOUTH" src=""/>
+<img name="HAPPY FACE" src=""/>
+<img name="HAPPY FACE WITH OPEN MOUTH AND RAISED EYEBROWS" src=""/>
+<img name="LITTLE CRYING FACE" src="weep.gif"/>
+<img name="LOUDLY CRYING FACE" src="crying.gif"/>
+<img name="PALE FACE" src=""/>
+<img name="PERSEVERING FACE" src="bearing.gif"/>
+<img name="POUTING FACE" src="pout.gif"/>
+<img name="RELIEVED FACE" src="confident.gif"/>
+<img name="SAD FACE" src="sad.gif"/>
+<img name="SAD FACE 2" src="think.gif"/>
+<img name="SHOCKED FACE WITH SCREAM" src="shock.gif"/>
+<img name="SLEEPY FACE" src=""/>
+<img name="SMIRKY FACE" src="catface.gif"/>
+<img name="TEARY FACE" src="coldsweats02.gif"/>
+<img name="TEARY FACE 2" src=""/>
+<img name="TIRED FACE" src=""/>
+<img name="WINKING FACE" src="wink.gif"/>
+<img name="CAT FACE WITH OPEN MOUTH" src=""/>
+<img name="CAT FACE WITH GRIN" src=""/>
+<img name="CAT FACE WITH SADNESS AND JOY" src=""/>
+<img name="CAT FACE WITH PUCKERED LIPS" src=""/>
+<img name="CAT FACE WITH HEART SHAPED EYES" src=""/>
+<img name="CAT FACE WITH TEAR DROP" src=""/>
+<img name="CAT FACE WITH RAISED EYEBROWS AND POUTING MOUTH" src=""/>
+<img name="CAT FACE WITH RAISED EYEBROWS AND PURSED LIPS" src=""/>
+<img name="CAT FACE WITH LOWERED EYEBROWS AND OPEN MOUTH" src=""/>
+<img name="FACE WITH NO GOOD GESTURE" src=""/>
+<img name="FACE WITH OK GESTURE" src=""/>
+<img name="BOWING FACE" src=""/>
+<img name="SEE NO EVIL MONKEY" src=""/>
+<img name="SPEAK NO EVIL MONEY" src=""/>
+<img name="HEAR NO EVIL MONKEY" src=""/>
+<img name="PERSON RAISING ONE HAND" src=""/>
+<img name="PERSON RAISING BOTH HANDS" src=""/>
+<img name="PERSON FROWNING" src=""/>
+<img name="PERSON MAKING POUTING FACE" src=""/>
+<img name="PERSON WITH FOLDED HANDS" src=""/>
+<img name="COOL FACE" src=""/>
+<img name="HUG FACE" src=""/>
+<img name="GEEK" src=""/>
+<img name="THINKING" src=""/>
+<img name="BOUNCING HAPPY" src=""/>
+<img name="FACE WITH ROLLING EYES" src=""/>
+<img name="FACE WITH SLANTED MOUTH" src=""/>
+<img name="FACE WITH UNBALANCED EYES" src=""/>
+<img name="UPSIDE DOWN FACE" src=""/>
+<img name="INJURED FACE" src=""/>
+<img name="NERVOUS FACE" src=""/>
+<img name="SYMPATHETIC FACE" src=""/>
+<img name="THIN FACE" src=""/>
+<img name="ROBOT" src=""/>
+<img name="BLACK HOUSE" src="house.gif"/>
+<img name="HOME" src=""/>
+<img name="OFFICE BUILDING" src="building.gif"/>
+<img name="POST OFFICE" src="postoffice.gif"/>
+<img name="HOSPITAL" src="hospital.gif"/>
+<img name="BANK" src="bank.gif"/>
+<img name="ATM" src="atm.gif"/>
+<img name="HOTEL" src="hotel.gif"/>
+<img name="LOVE HOTEL" src=""/>
+<img name="CONVENIENCE STORE" src="24hours.gif"/>
+<img name="SCHOOL" src="school.gif"/>
+<img name="CHAPEL" src=""/>
+<img name="FOUNTAIN" src=""/>
+<img name="DEPARTMENT STORE" src=""/>
+<img name="JAPANESE CASTLE" src=""/>
+<img name="WESTERN CASTLE" src=""/>
+<img name="FACTORY" src=""/>
+<img name="ANCHOR" src=""/>
+<img name="RED LANTERN" src=""/>
+<img name="MOUNT FUJI" src="fuji.gif"/>
+<img name="TOKYO TOWER" src=""/>
+<img name="BOUTIQUE 109" src=""/>
+<img name="STATUE OF LIBERTY" src=""/>
+<img name="MAP OF JAPAN" src=""/>
+<img name="MOYAI" src=""/>
+<img name="WRENCH" src="wrench.gif"/>
+<img name="HAMMER" src=""/>
+<img name="NUT AND BOLT" src=""/>
+<img name="MENS SHOE" src=""/>
+<img name="SNEAKER" src="shoe.gif"/>
+<img name="GLASSES" src="eyeglass.gif"/>
+<img name="T-SHIRT" src="t-shirt.gif"/>
+<img name="JEANS" src="denim.gif"/>
+<img name="CROWN" src="crown.gif"/>
+<img name="EMBLEM" src=""/>
+<img name="NECKTIE" src=""/>
+<img name="LADIES HAT" src=""/>
+<img name="DRESS" src=""/>
+<img name="HIGH HEELED SHOE" src="boutique.gif"/>
+<img name="MULE" src=""/>
+<img name="LONG BOOTS" src=""/>
+<img name="KIMONO" src=""/>
+<img name="BIKINI" src=""/>
+<img name="WOMANS CLOTHES" src=""/>
+<img name="PURSE" src="moneybag.gif"/>
+<img name="PRIZE BAG" src="dollar.gif"/>
+<img name="CURRENCY EXCHANGE" src=""/>
+<img name="STOCK MARKET" src=""/>
+<img name="DOLLAR SYMBOL" src=""/>
+<img name="CREDIT CARD" src=""/>
+<img name="BILL WITH YEN SIGN" src="yen.gif"/>
+<img name="DOLLAR BILL" src=""/>
+<img name="MONEY WITH WINGS" src=""/>
+<img name="FLAG OF JAPAN" src=""/>
+<img name="FLAG OF THE USA" src=""/>
+<img name="FLAG OF FRANCE" src=""/>
+<img name="FLAG OF GERMANY" src=""/>
+<img name="FLAG OF ITALY" src=""/>
+<img name="FLAG OF UNITED KINGDOM" src=""/>
+<img name="FLAG OF SPAIN" src=""/>
+<img name="FLAG OF RUSSIA" src=""/>
+<img name="FLAG OF CHINA" src=""/>
+<img name="FLAG OF SOUTH KOREA" src=""/>
+<img name="CAMERA" src="camera.gif"/>
+<img name="HANDBAG" src="bag.gif"/>
+<img name="POUCH" src="pouch.gif"/>
+<img name="BELL" src="bell.gif"/>
+<img name="DOOR" src="door.gif"/>
+<img name="POOP" src=""/>
+<img name="PISTOL" src=""/>
+<img name="FIRE" src=""/>
+<img name="FORTUNE TELLING" src=""/>
+<img name="CONSTELLATION" src=""/>
+<img name="VIDEO CAMERA" src=""/>
+<img name="KNIFE" src=""/>
+<img name="FLASHLIGHT" src=""/>
+<img name="BATTERY" src=""/>
+<img name="SCROLL" src=""/>
+<img name="ELECTRIC PLUG" src=""/>
+<img name="BOOK WITH HORIZONTAL FILL" src=""/>
+<img name="BLACK BOOK" src=""/>
+<img name="WHITE BOOK" src=""/>
+<img name="BOOK WITH VERICAL FILL" src=""/>
+<img name="BOOKS" src=""/>
+<img name="NAME PLATE" src=""/>
+<img name="BATH" src=""/>
+<img name="RESTROOM" src=""/>
+<img name="TOILET" src="toilet.gif"/>
+<img name="WATER CLOSET" src=""/>
+<img name="SYRINGE" src=""/>
+<img name="CAPSULE PILL" src=""/>
+<img name="BLOOD TYPE A" src=""/>
+<img name="BLOOD TYPE B" src=""/>
+<img name="BLOOD TYPE AB" src=""/>
+<img name="BLOOD TYPE O" src=""/>
+<img name="RIBBON" src="ribbon.gif"/>
+<img name="PRESENT" src="present.gif"/>
+<img name="BIRTHDAY CAKE" src="birthday.gif"/>
+<img name="CHRISTMAS TREE" src="xmas.gif"/>
+<img name="SANTA CLAUS" src=""/>
+<img name="TWO JAPANESE FLAGS" src=""/>
+<img name="FIREWORKS" src=""/>
+<img name="BALLOON" src=""/>
+<img name="PARTY POPPER" src=""/>
+<img name="PINE DECORATION" src=""/>
+<img name="GIRLS DOLLS FESTIVAL" src=""/>
+<img name="GRADUATION CAP" src=""/>
+<img name="SCHOOL SATCHEL" src=""/>
+<img name="CARP STREAMER" src=""/>
+<img name="JAPANESE SPARKLER" src=""/>
+<img name="WIND CHIME" src=""/>
+<img name="JACK O LANTERN" src=""/>
+<img name="DECORATIVE CONFETTI BALL" src=""/>
+<img name="TANABATA TREE" src=""/>
+<img name="PAGER" src="pocketbell.gif"/>
+<img name="TELEPHONE" src="telephone.gif"/>
+<img name="TELEPHONE 2" src=""/>
+<img name="MOBILE PHONE" src="mobilephone.gif"/>
+<img name="PHONE WITH ARROW" src="phoneto.gif"/>
+<img name="MEMO" src="memo.gif"/>
+<img name="FAX" src="faxto.gif"/>
+<img name="ENVELOPE" src="mail.gif"/>
+<img name="ENVELOPE 2" src=""/>
+<img name="ENVELOPE WITH ARROW" src="mailto.gif"/>
+<img name="MAILBOX" src=""/>
+<img name="MAILBOX 2" src=""/>
+<img name="POSTBOX" src=""/>
+<img name="MEGAPHONE" src=""/>
+<img name="LOUD SPEAKER" src=""/>
+<img name="SATELLITE ANTENNA" src=""/>
+<img name="DIALOG BUBBLE" src=""/>
+<img name="OUTBOX TRAY" src=""/>
+<img name="INBOX TRAY" src=""/>
+<img name="PACKAGE" src=""/>
+<img name="BLACK NIB" src="pen.gif"/>
+<img name="CHAIR" src="chair.gif"/>
+<img name="PC" src="pc.gif"/>
+<img name="PENCIL" src="pencil.gif"/>
+<img name="PAPERCLIP" src="clip.gif"/>
+<img name="BRIEFCASE" src=""/>
+<img name="FLOPPY DISK" src=""/>
+<img name="FLOPPY DISK 2" src=""/>
+<img name="BLACK SCISSORS" src="hairsalon.gif"/>
+<img name="PUSHPIN" src=""/>
+<img name="DOCUMENT" src=""/>
+<img name="DOCUMENT 2" src=""/>
+<img name="CALENDAR" src=""/>
+<img name="FILE FOLDER" src=""/>
+<img name="FILE FOLDER 2" src=""/>
+<img name="NOTEBOOK" src=""/>
+<img name="NOTEBOOK 2" src="book.gif"/>
+<img name="NOTEBOOK 3" src=""/>
+<img name="CLIPBOARD" src=""/>
+<img name="TEAR OFF CALENDAR" src=""/>
+<img name="CHART" src=""/>
+<img name="LINE GRAPH CHART 1" src=""/>
+<img name="LINE GRAPH CHART 2" src=""/>
+<img name="ROLODEX" src=""/>
+<img name="THUMBTACK" src=""/>
+<img name="LEDGER" src=""/>
+<img name="RULER 1" src=""/>
+<img name="RULER 2" src=""/>
+<img name="BOOKMARK TABS" src=""/>
+<img name="FOOT PRINTS" src="foot.gif"/>
+<img name="RUNNING SHIRT WITH SASH" src="sports.gif"/>
+<img name="BASEBALL" src="baseball.gif"/>
+<img name="GOLF" src="golf.gif"/>
+<img name="TENNIS" src="tennis.gif"/>
+<img name="SOCCER BALL" src="soccer.gif"/>
+<img name="SKI" src="ski.gif"/>
+<img name="BASKETBALL" src="basketball.gif"/>
+<img name="CHECKERED FLAG" src="motorsports.gif"/>
+<img name="SNOWBOARDER" src="snowboard.gif"/>
+<img name="RUNNER" src="run.gif"/>
+<img name="SURFER" src=""/>
+<img name="TROPHY" src=""/>
+<img name="HORSE RACING" src=""/>
+<img name="FOOTBALL" src=""/>
+<img name="SWIMMER" src=""/>
+<img name="TRAIN" src="train.gif"/>
+<img name="SUBWAY" src=""/>
+<img name="METRO SIGN" src="subway.gif"/>
+<img name="BULLET TRAIN" src="bullettrain.gif"/>
+<img name="BULLET TRAIN 2" src=""/>
+<img name="CAR" src="car.gif"/>
+<img name="CAR 2" src="rvcar.gif"/>
+<img name="BUS" src="bus.gif"/>
+<img name="BUS STOP" src=""/>
+<img name="SHIP" src="ship.gif"/>
+<img name="AIRPLANE" src="airplane.gif"/>
+<img name="SAILBOAT" src="yacht.gif"/>
+<img name="BICYCLE" src="bicycle.gif"/>
+<img name="STATION" src=""/>
+<img name="ROCKET" src=""/>
+<img name="SPEEDBOAT" src=""/>
+<img name="TAXI" src=""/>
+<img name="WALKER" src=""/>
+<img name="TRUCK" src=""/>
+<img name="FIRE ENGINE" src=""/>
+<img name="AMBULANCE" src=""/>
+<img name="PATROL CAR" src=""/>
+<img name="GAS STATION" src="gasstation.gif"/>
+<img name="PARKING" src="parking.gif"/>
+<img name="TRAFFIC LIGHT" src="signaler.gif"/>
+<img name="CONSTRUCTION" src=""/>
+<img name="PATROL CARS REVOLVING LIGHT" src=""/>
+<img name="HOT SPRINGS" src="spa.gif"/>
+<img name="CAMP" src=""/>
+<img name="AMUSEMENT PARK" src="carouselpony.gif"/>
+<img name="AMUSEMENT PARK 2" src=""/>
+<img name="ROLLER COASTER" src=""/>
+<img name="FISHING" src=""/>
+<img name="MICROPHONE" src="karaoke.gif"/>
+<img name="MOVIES" src="movie.gif"/>
+<img name="MOVIE THEATER" src=""/>
+<img name="HEADPHONE" src="music.gif"/>
+<img name="ART" src="art.gif"/>
+<img name="BLACK SILK HAT" src="drama.gif"/>
+<img name="EVENT" src="event.gif"/>
+<img name="TICKET" src="ticket.gif"/>
+<img name="MOVIE SHOOTING CLAPBOARD" src="slate.gif"/>
+<img name="PERFORMING ARTS" src=""/>
+<img name="VIDEO GAME" src="game.gif"/>
+<img name="MAHJONG" src=""/>
+<img name="BULLS EYE" src=""/>
+<img name="SLOT MACHINE" src=""/>
+<img name="BILLIARDS" src=""/>
+<img name="A DIE" src=""/>
+<img name="BOWLING" src=""/>
+<img name="JAPANESE FLOWER PLAYING CARDS" src=""/>
+<img name="JOKER CARD" src=""/>
+<img name="MUSICAL NOTE" src="note.gif"/>
+<img name="MULTIPLE MUSICAL NOTES" src="notes.gif"/>
+<img name="SAXOPHONE" src=""/>
+<img name="GUITAR" src=""/>
+<img name="PIANO" src=""/>
+<img name="TRUMPET" src=""/>
+<img name="VIOLIN" src=""/>
+<img name="MUSICAL SCORE" src=""/>
+<img name="START SINGING SYMBOL" src=""/>
+<img name="TV" src="tv.gif"/>
+<img name="CD" src="cd.gif"/>
+<img name="DVD" src=""/>
+<img name="RADIO" src=""/>
+<img name="VIDEO TAPE" src=""/>
+<img name="SPEAKER" src=""/>
+<img name="NEWSPAPER" src=""/>
+<img name="KISS MARK" src="kissmark.gif"/>
+<img name="LOVE LETTER" src="loveletter.gif"/>
+<img name="RING" src="ring.gif"/>
+<img name="GEM STONE" src=""/>
+<img name="KISS" src=""/>
+<img name="BOUQUET" src=""/>
+<img name="COUPLE" src=""/>
+<img name="WEDDING" src=""/>
+<img name="FREE DIAL" src="freedial.gif"/>
+<img name="HASH KEY" src="sharp.gif"/>
+<img name="MOBILE Q" src="mobaq.gif"/>
+<img name="KEYPAD 1" src="one.gif"/>
+<img name="KEYPAD 2" src="two.gif"/>
+<img name="KEYPAD 3" src="three.gif"/>
+<img name="KEYPAD 4" src="four.gif"/>
+<img name="KEYPAD 5" src="five.gif"/>
+<img name="KEYPAD 6" src="six.gif"/>
+<img name="KEYPAD 7" src="seven.gif"/>
+<img name="KEYPAD 8" src="eight.gif"/>
+<img name="KEYPAD 9" src="nine.gif"/>
+<img name="KEYPAD 0" src="zero.gif"/>
+<img name="ANTENNA MARK" src=""/>
+<img name="VIBRATION MODE" src=""/>
+<img name="PHONE OFF" src=""/>
+<img name="KEYPAD 10" src=""/>
+<img name="PDC" src=""/>
+<img name="HAMBURGER" src="fastfood.gif"/>
+<img name="RICE BALL" src="riceball.gif"/>
+<img name="SHORTCAKE" src="cake.gif"/>
+<img name="STEAMING BOWL" src="noodle.gif"/>
+<img name="BREAD" src="bread.gif"/>
+<img name="COOKING" src=""/>
+<img name="SOFT ICE CREAM" src=""/>
+<img name="FRENCH FRIES" src=""/>
+<img name="DUMPLING" src=""/>
+<img name="RICE CRACKER" src=""/>
+<img name="COOKED RICE" src=""/>
+<img name="SPAGHETTI" src=""/>
+<img name="CURRY AND RICE" src=""/>
+<img name="SEAFOOD CASSEROLE" src=""/>
+<img name="SUSHI" src=""/>
+<img name="LUNCHBOX" src=""/>
+<img name="POT OF FOOD" src=""/>
+<img name="SHAVED ICE" src=""/>
+<img name="MEAT ON A BONE" src=""/>
+<img name="FISH CAKE WITH SWIRL DESIGN" src=""/>
+<img name="ROASTED SWEET POTATO" src=""/>
+<img name="PIZZA" src=""/>
+<img name="TURKEY LEG" src=""/>
+<img name="ICE CREAM" src=""/>
+<img name="DONUT" src=""/>
+<img name="COOKIE" src=""/>
+<img name="CHOCOLATE BAR" src=""/>
+<img name="CANDY" src=""/>
+<img name="LOLLYPOP" src=""/>
+<img name="CUSTARD" src=""/>
+<img name="HONEY POT" src=""/>
+<img name="FRIED SHRIMP" src=""/>
+<img name="FORK AND KNIFE" src="restaurant.gif"/>
+<img name="HOT BEVERAGE" src="cafe.gif"/>
+<img name="COCKTAIL GLASS" src="bar.gif"/>
+<img name="BEER" src="beer.gif"/>
+<img name="TEA CUP" src="japanesetea.gif"/>
+<img name="SAKE BOTTLE AND CUP" src="bottle.gif"/>
+<img name="WINE GLASS" src="wine.gif"/>
+<img name="CLINKING BEER MUGS" src=""/>
+<img name="TROPICAL DRINK" src=""/>
+<img name="NORTH EAST ARROW" src="upwardright.gif"/>
+<img name="SOUTH EAST ARROW" src="downwardright.gif"/>
+<img name="NORTH WEST ARROW" src="upwardleft.gif"/>
+<img name="SOUTH WEST ARROW" src="downwardleft.gif"/>
+<img name="ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS" src="up.gif"/>
+<img name="ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS" src="down.gif"/>
+<img name="LEFT RIGHT ARROW" src="leftright.gif"/>
+<img name="UP DOWN ARROW" src="updown.gif"/>
+<img name="UPWARDS ARROW" src=""/>
+<img name="DOWNWARDS ARROW" src=""/>
+<img name="RIGHTWARDS ARROW" src=""/>
+<img name="LEFTWARDS ARROW" src=""/>
+<img name="BLACK RIGHT-POINTING TRIANGLE" src=""/>
+<img name="BLACK LEFT-POINTING TRIANGLE" src=""/>
+<img name="BLACK RIGHT-POINTING DOUBLE TRIANGLE" src=""/>
+<img name="BLACK LEFT-POINTING DOUBLE TRIANGLE" src=""/>
+<img name="CHECKERED DOWN-POINTING SMALL TRIANGLE" src=""/>
+<img name="CHECKERED UP-POINTING SMALL TRIANGLE" src=""/>
+<img name="BLACK DOWN-POINTING DOUBLE TRIANGLE" src=""/>
+<img name="BLACK UP-POINTING DOUBLE TRIANGLE" src=""/>
+<img name="HEAVY EXCLAMATION MARK ORNAMENT" src="sign01.gif"/>
+<img name="EXCLAMATION QUESTION MARK" src="sign02.gif"/>
+<img name="DOUBLE EXCLAMATION MARK" src="sign03.gif"/>
+<img name="WAVY LENGTH MARK" src="sign04.gif"/>
+<img name="LOOPED LENGTH MARK" src="sign05.gif"/>
+<img name="BLACK QUESTION MARK" src=""/>
+<img name="WHITE QUESTION MARK" src=""/>
+<img name="WHITE EXCLAMATION MARK" src=""/>
+<img name="HEAVY BLACK HEART" src="heart01.gif"/>
+<img name="HEART 2" src="heart02.gif"/>
+<img name="HEART 3" src="heart03.gif"/>
+<img name="HEART 4" src="heart04.gif"/>
+<img name="HEART 5" src=""/>
+<img name="HEART 6" src=""/>
+<img name="HEART 7" src=""/>
+<img name="BLACK HEART" src=""/>
+<img name="CHECKERED HEART" src=""/>
+<img name="WHITE HEART" src=""/>
+<img name="STRIPED HEART" src=""/>
+<img name="HEART WITH RIBBON" src=""/>
+<img name="REVOLVING HEARTS" src=""/>
+<img name="DECORATIVE DESIGN 1" src=""/>
+<img name="BLACK HEART SUIT" src="heart.gif"/>
+<img name="BLACK SPADE SUIT" src="spade.gif"/>
+<img name="BLACK DIAMOND SUIT" src="diamond.gif"/>
+<img name="BLACK CLUB SUIT" src="club.gif"/>
+<img name="SMOKING SIGN" src="smoking.gif"/>
+<img name="NO SMOKING SIGN" src="nosmoking.gif"/>
+<img name="WHEELCHAIR SYMBOL" src="wheelchair.gif"/>
+<img name="FREE SIGN" src="free.gif"/>
+<img name="TRIANGULAR FLAG ON POST" src="flag.gif"/>
+<img name="EXCLAMATION MARK IN TRIANGLE" src="danger.gif"/>
+<img name="HERE SIGN" src=""/>
+<img name="ADULTS ONLY SIGN" src=""/>
+<img name="NO ENTRANCE SIGN" src=""/>
+<img name="OK SIGN" src="ok.gif"/>
+<img name="NO GOOD SIGN" src="ng.gif"/>
+<img name="COPYRIGHT SIGN" src="copyright.gif"/>
+<img name="TRADE MARK SIGN" src="tm.gif"/>
+<img name="CIRCLED IDEOGRAPH SECRET" src="secret.gif"/>
+<img name="BLACK UNIVERSAL RECYCLING SYMBOL" src="recycle.gif"/>
+<img name="REGISTERED SIGN" src="r-mark.gif"/>
+<img name="PROHIBITED SIGN" src="ban.gif"/>
+<img name="EMPTY SIGN" src="empty.gif"/>
+<img name="PASSED SIGN" src="pass.gif"/>
+<img name="FULL SIGN" src="full.gif"/>
+<img name="VS SIGN" src=""/>
+<img name="MENS SYMBOL" src=""/>
+<img name="WOMENS SYMBOL" src=""/>
+<img name="BABY 2" src=""/>
+<img name="NEW SIGN" src="new.gif"/>
+<img name="UP SIGN" src=""/>
+<img name="COOL SIGN" src=""/>
+<img name="EXISTENCE SIGN" src=""/>
+<img name="NON-EXISTENCE SIGN" src=""/>
+<img name="MONTHLY SIGN" src=""/>
+<img name="APPLICATION SIGN" src=""/>
+<img name="ADVANTAGE SIGN" src=""/>
+<img name="DISCOUNT SIGN" src=""/>
+<img name="SERVICE SIGN" src=""/>
+<img name="RESERVED SIGN" src=""/>
+<img name="IN BUSINESS SIGN" src=""/>
+<img name="TOP WITH UPWARD SIGN" src=""/>
+<img name="CELEBRATION SIGN" src=""/>
+<img name="BLACK CIRCLE MARK" src=""/>
+<img name="CROSS MARK" src=""/>
+<img name="CROSS MARK 2" src=""/>
+<img name="INFORMATION SOURCE" src=""/>
+<img name="NO ENTRY SIGN" src=""/>
+<img name="HEAVY CHECK MARK" src=""/>
+<img name="WHITE HEAVY CHECK MARK" src=""/>
+<img name="LINK SYMBOL" src=""/>
+<img name="EM SPACE" src=""/>
+<img name="EN SPACE" src=""/>
+<img name="FOUR-PER-EM SPACE" src=""/>
+<img name="SOS SIGN" src=""/>
+<img name="ACCEPT SIGN" src=""/>
+<img name="HEAVY PLUS" src=""/>
+<img name="HEAVY MINUS" src=""/>
+<img name="HEAVY TIMES" src=""/>
+<img name="HEAVY DIVISION" src=""/>
+<img name="DIAMOND SHAPE WITH A DOT INSIDE" src="cute.gif"/>
+<img name="ELECTRIC LIGHT BULB" src="flair.gif"/>
+<img name="ANGER SIGN" src="annoy.gif"/>
+<img name="BOMB" src="bomb.gif"/>
+<img name="SLEEPING SIGN" src="sleepy.gif"/>
+<img name="COLLISION SYMBOL" src="impact.gif"/>
+<img name="SPLASHING SWEAT" src="sweat01.gif"/>
+<img name="DRIP" src="sweat02.gif"/>
+<img name="DASH SYMBOL" src="dash.gif"/>
+<img name="FLEXED BICEP" src=""/>
+<img name="DIZZY SYMBOL" src=""/>
+<img name="SPARKLES" src="shine.gif"/>
+<img name="EIGHT POINTED BLACK STAR" src=""/>
+<img name="EIGHT SPOKED ASTERISK" src=""/>
+<img name="LARGE WHITE BULLET" src=""/>
+<img name="LARGE BLACK BULLET" src=""/>
+<img name="MEDIUM WHITE CIRCLE" src=""/>
+<img name="MEDIUM BLACK CIRCLE" src=""/>
+<img name="LARGE CHECKERED BULLET" src=""/>
+<img name="BLACK STAR MARK" src=""/>
+<img name="WHITE GLOWING STAR" src=""/>
+<img name="BLACK GLOWING STAR" src=""/>
+<img name="WHITE SQUARE BUTTON" src=""/>
+<img name="BLACK SQUARE BUTTON" src=""/>
+<img name="WHITE SMALL SQUARE" src=""/>
+<img name="BLACK SMALL SQUARE" src=""/>
+<img name="WHITE MEDIUM SMALL SQUARE" src=""/>
+<img name="BLACK MEDIUM SMALL SQUARE" src=""/>
+<img name="WHITE MEDIUM SQUARE" src=""/>
+<img name="BLACK MEDIUM SQUARE" src=""/>
+<img name="CHECKERED DIAMOND" src=""/>
+<img name="STRIPED DIAMOND" src=""/>
+<img name="WHITE SMALL DIAMOND" src=""/>
+<img name="CHECKERED SMALL DIAMOND" src=""/>
+<img name="SPARKLE" src=""/>
+<img name="CHECKERED UP-POINTING TRIANGLE" src=""/>
+<img name="CHECKERED DOWN-POINTING TRIANGLE" src=""/>
+<img name="WHITE FLOWER" src=""/>
+<img name="HUNDRED POINTS SYMBOL" src=""/>
+<img name="LATIN CAPITAL LETTERS SYMBOL" src=""/>
+<img name="LATIN SMALL LETTERS SYMBOL" src=""/>
+<img name="NUMBERS SYMBOL" src=""/>
+<img name="SYMBOLS SIGN" src=""/>
+<img name="ENGLISH LANGUAGE SYMBOL" src=""/>
+<img name="ID" src="id.gif"/>
+<img name="KEY" src="key.gif"/>
+<img name="LEFTWARDS ARROW WITH HOOK" src="enter.gif"/>
+<img name="CLEAR SIGN" src="clear.gif"/>
+<img name="MAGNIFYING GLASS" src="search.gif"/>
+<img name="LOCK" src=""/>
+<img name="LOCK 2" src=""/>
+<img name="RIGHTWARDS ARROW WITH HOOK" src=""/>
+<img name="OPENWAVE" src=""/>
+<img name="CLOSED LOCK WITH KEY" src=""/>
+<img name="BALLOT BOX WITH CHECK" src=""/>
+<img name="RADIO BUTTON" src=""/>
+<img name="MAGNIFYING GLASS 2" src=""/>
+<img name="LEFTWARDS ARROW WITH LETTER BACK" src=""/>
+<img name="BOOKMARK" src=""/>
+<img name="LOCK WITH INK PEN" src=""/>
+<img name="DOUBLE CLOCKWISE OPEN CIRCLE ARROWS" src=""/>
+<img name="EMAIL SIGN" src=""/>
+<img name="ROCK IN HAND GAME" src="rock.gif"/>
+<img name="SCISSOR IN HAND GAME" src="scissors.gif"/>
+<img name="PAPER IN HAND GAME" src="paper.gif"/>
+<img name="FISTED HAND" src="punch.gif"/>
+<img name="THUMBS UP SIGN" src="good.gif"/>
+<img name="INDEX FINGER POINTING UPWARDS" src=""/>
+<img name="WHITE UP POINTING INDEX" src=""/>
+<img name="WHITE DOWN POINTING INDEX" src=""/>
+<img name="WHITE LEFT POINTING INDEX" src=""/>
+<img name="WHITE RIGHT POINTING INDEX" src=""/>
+<img name="WAVING HAND" src=""/>
+<img name="CLAPPING HANDS" src=""/>
+<img name="OK HAND SIGN" src=""/>
+<img name="THUMBS DOWN SIGN" src=""/>
+<img name="OPEN HANDS" src=""/>
+<img name="ROCK ON" src=""/>
+<img name="I-MODE" src="info01.gif"/>
+<img name="I-MODE WITH FRAME" src="info02.gif"/>
+<img name="PROVIDED BY DOCOMO" src=""/>
+<img name="DOCOMO POINT" src="d-point.gif"/>
+<img name="I-APPLI" src="appli01.gif"/>
+<img name="I-APPLI WITH BORDER" src="appli02.gif"/>
+<img name="PIAS PI" src=""/>
+<img name="PIAS A" src=""/>
+<img name="INVERSE TICKET" src=""/>
+<img name="KATAKANA ABBREVIATION FOR TICKET" src=""/>
+<img name="RESERVE BY PHONE" src=""/>
+<img name="P CODE" src=""/>
+<img name="MOVIES 2" src=""/>
+<img name="PIAS PI INVERSE" src=""/>
+<img name="PIAS PI CIRCLE" src=""/>
+<img name="PIAS PI SQUARE" src=""/>
+<img name="CHECK" src=""/>
+<img name="F" src=""/>
+<img name="D" src=""/>
+<img name="S" src=""/>
+<img name="C" src=""/>
+<img name="R" src=""/>
+<img name="BLACK AND WHITE SQUARE" src=""/>
+<img name="BLACK SQUARE 3" src=""/>
+<img name="DOWNWARD TRIANGLE" src=""/>
+<img name="FOUR DAGGERS" src=""/>
+<img name="THREE DAGGERS" src=""/>
+<img name="TWO DAGGERS" src=""/>
+<img name="SINGLE DAGGER" src=""/>
+<img name="I" src=""/>
+<img name="M" src=""/>
+<img name="E" src=""/>
+<img name="VE" src=""/>
+<img name="SPHERE" src=""/>
+<img name="CREDIT CARDS NOT ACCEPTED" src=""/>
+<img name="CHECKBOX" src=""/>
+<img name="EZ WEB" src=""/>
+<img name="EZ PLUS" src=""/>
+<img name="EZ NAVIGATION" src=""/>
+<img name="EZ MOVIE" src=""/>
+<img name="CMAIL" src=""/>
+<img name="JAVA" src=""/>
+<img name="BREW" src=""/>
+<img name="EZ RING MUSIC" src=""/>
+<img name="EZ NAVI" src=""/>
+<img name="WIN" src=""/>
+<img name="PREMIUM SIGN" src=""/>
+<img name="J-SKY1" src=""/>
+<img name="J-SKY2" src=""/>
+<img name="VODAFONE1" src=""/>
+<img name="VODAFONE2" src=""/>
+<img name="VODAFONE3" src=""/>
+<img name="VODAFONE4" src=""/>
+<img name="VODAFONE5" src=""/>
+<img name="J-PHONE SHOP" src=""/>
+<img name="SKY WEB" src=""/>
+<img name="SKY WALKER" src=""/>
+<img name="SKY MELODY" src=""/>
+<img name="J-PHONE 1" src=""/>
+<img name="J-PHONE 2" src=""/>
+<img name="J-PHONE 3" src=""/>
+<img name="GOOGLE" src=""/>
+</images>
