@@ -20,7 +20,8 @@ def load_handler(path):
 def get_handlers():
     from django.conf import settings
     handlers = []
-    for handler_path in settings.DETECT_ENCODING_HANDLERS:
+    handler_pathes = getattr(settings, 'DETECT_ENCODING_HANDLERS', ('bpmobile.wsgi.UserAgentDetectEncoding',))
+    for handler_path in handler_pathes:
         handlers.append(load_handler(handler_path))
     return handlers
 
