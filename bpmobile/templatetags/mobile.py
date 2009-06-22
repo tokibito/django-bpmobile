@@ -5,6 +5,7 @@ uamobile必須です
 """
 import os
 import urlparse
+import urllib
 import cgi
 from django import template
 from django import forms

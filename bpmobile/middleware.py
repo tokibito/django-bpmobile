@@ -6,7 +6,7 @@ from django.conf import settings
 from django.utils.cache import patch_vary_headers
 from django.utils.http import cookie_date
 from django.core.cache import cache
-from django.http import HttpResponseForbidden
+from django.http import HttpResponseRedirect, HttpResponseForbidden
 
 import uamobile
 import utils
@@ -84,8 +84,8 @@ class BPMobileSessionMiddleware(object):
                     query_string = 'guid=on'
                 url = "%s://%s%s?%s" % (protocol, request.get_host(), request.get_full_path(), query_string)
                 return HttpResponseRedirect(url)
-            if self.agent.guid:
-                # memcacheからセッションキーをとってくる
+            if agent.guid:
+                # cacheからセッションキーをとってくる
                 session_key = cache.get(self.get_cache_key(agent.guid))
             else:
                 session_key = None
@@ -122,7 +122,7 @@ class BPMobileSessionMiddleware(object):
                 else:
                     if agent.guid:
                         # memcacheにセッションキーをセット
-                        session_key = cache.set(self.get_cache_key(agent.guid), request.session.session_key, conf.MOBILE_SESSION_TIMEOUT)
+                        session_key = cache.set(self.get_cache_key(agent.guid), request.session.session_key, settings.SESSION_COOKIE_AGE)
         return response
 
 class BPMobileDenyBogusIP(object):
