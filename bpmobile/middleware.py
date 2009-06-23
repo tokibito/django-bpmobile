@@ -132,5 +132,5 @@ class BPMobileDenyBogusIP(object):
 
     def process_request(self, request):
         agent = self.get_agent(request)
-        if agent.is_bogus():
+        if agent.is_nonmobile() or agent.is_bogus():
             return HttpResponseForbidden('403 Access Forbidden.')
