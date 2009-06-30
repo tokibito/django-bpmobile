@@ -9,6 +9,7 @@ import cgi
 from django import template
 from django import forms
 from django.conf import settings
+from django.utils.encoding import force_unicode
 from django.utils.safestring import mark_safe
 from django.template.defaulttags import URLNode
 from bpmobile import utils as utils

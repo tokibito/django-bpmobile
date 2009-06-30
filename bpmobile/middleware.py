@@ -31,6 +31,10 @@ class BPMobileMiddleware(object):
 
 class BPMobileConvertResponseMiddleware(object):
     def process_response(self, request, response):
+        # encoding変換済みならスキップ
+        if getattr(response, 'encoded', False):
+            return response
+
         agent = uamobile.detect(request.META)
 
         if not agent.is_nonmobile():
