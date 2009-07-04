@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 import time
 import re
+
 from django.conf import settings
 from django.utils.cache import patch_vary_headers
 from django.utils.http import cookie_date
 from django.core.cache import cache
+from django.http import HttpResponseForbidden
 
 import uamobile
 import utils
@@ -39,6 +41,7 @@ class BPMobileConvertResponseMiddleware(object):
 
         if not agent.is_nonmobile():
             encoding = 'UTF-8'
+            print response
             if response['content-type'].startswith('text'):
                 c = unicode(response.content,'utf8')
                 if agent.is_docomo():
@@ -122,3 +125,13 @@ class BPMobileSessionMiddleware(object):
                         # memcacheにセッションキーをセット
                         session_key = cache.set(self.get_cache_key(agent.guid), request.session.session_key, conf.MOBILE_SESSION_TIMEOUT)
         return response
+
+class BPMobileDenyBogusIP(object):
+
+    def get_agent(self, request):
+        return getattr(request, 'agent', uamobile.detect(request.META))
+
+    def process_request(self, request):
+        agent = self.get_agent(request)
+        if agent.is_bogus():
+            return HttpResponseForbidden('403 Access Forbidden.')
