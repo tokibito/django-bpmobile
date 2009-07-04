@@ -41,7 +41,6 @@ class BPMobileConvertResponseMiddleware(object):
 
         if not agent.is_nonmobile():
             encoding = 'UTF-8'
-            print response
             if response['content-type'].startswith('text'):
                 c = unicode(response.content,'utf8')
                 if agent.is_docomo():
