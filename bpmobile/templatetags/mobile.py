@@ -125,7 +125,7 @@ def mobileurl(parser, token):
     """
     bits = token.contents.split(' ')
     if len(bits) < 2:
-        raise TemplateSyntaxError("'%s' takes at least one argument"
+        raise template.TemplateSyntaxError("'%s' takes at least one argument"
                                   " (path to a view)" % bits[0])
     viewname = bits[1]
     args = []
@@ -245,3 +245,29 @@ def mobile_encoding(parser, token):
         raise template.TemplateSyntaxError("'mobile_encoding' tag are no arguments")
     else:
         return MobileEncodingNode()
+
+class GIFOrPNGNode(template.Node):
+    def __repr__(self):
+        return "<GIFOrPNGNode>"
+
+    def render(self, context):
+        agent = context.get('agent', None)
+        ext = 'png'
+        if agent and agent.is_docomo():
+            encoding = 'gif'
+        return ext
+
+@register.tag
+def gif_or_png(parser, token):
+    """
+    キャリアに応じた画像の拡張子
+    DoCoMo: gif
+    au, Softbank, and others: png
+    {% gif_or_png %}
+    """
+    args = token.split_contents()
+
+    if len(args) > 1:
+        raise template.TemplateSyntaxError("'gif_or_png' tag are no arguments")
+    else:
+        return GIFOrPNGNode()
