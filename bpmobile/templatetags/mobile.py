@@ -254,7 +254,7 @@ class GIFOrPNGNode(template.Node):
         agent = context.get('agent', None)
         ext = 'png'
         if agent and agent.is_docomo():
-            encoding = 'gif'
+            ext = 'gif'
         return ext
 
 @register.tag
