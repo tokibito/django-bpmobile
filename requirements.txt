@@ -1,0 +1,2 @@
+uamobile==0.2.7
+zenhan==0.4
