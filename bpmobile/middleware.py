@@ -61,7 +61,7 @@ class BPMobileSessionMiddleware(object):
     cache_key_name = 'session_key_%s'
 
     def get_agent(self, request):
-        return uamobile.detect(request.META)
+        return getattr(request, 'agent', uamobile.detect(request.META))
 
     def get_cache_key(self, guid):
         return self.cache_key_name % guid
@@ -75,14 +75,15 @@ class BPMobileSessionMiddleware(object):
             if request.method == 'GET' and not request.GET.has_key('guid'):
                 # guid=onを付与したURLにリダイレクト
                 if request.is_secure():
+                    # SSLだとiモードIDは使えない
                     protocol = 'https'
                 else:
                     protocol = 'http'
                 if request.GET:
-                    query_string = '&'.join([request.GET.urlencode(), 'guid=on'])
+                    query_string = '&guid=on'
                 else:
-                    query_string = 'guid=on'
-                url = "%s://%s%s?%s" % (protocol, request.get_host(), request.get_full_path(), query_string)
+                    query_string = '?guid=on'
+                url = "%s://%s%s%s" % (protocol, request.get_host(), request.get_full_path(), query_string)
                 return HttpResponseRedirect(url)
             if agent.guid:
                 # cacheからセッションキーをとってくる
