@@ -1,0 +1,4 @@
+include COPYING_*
+include MANIFEST.in
+recursive-include bpmobile/media *.gif
+recursive-include bpmobile/data *.ucm *.xml

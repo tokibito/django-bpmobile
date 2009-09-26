@@ -7,6 +7,7 @@ setup (
     version='0.1',
     description='A helper application for Japanese mobile phones.',
     author='Shinya Okano',
+    author_email='tokibito@gmail.com',
     url='http://bitbucket.org/tokibito/django-bpmobile/',
     license='BSD License',
     classifiers=[
@@ -19,4 +20,9 @@ setup (
       'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     packages=find_packages(),
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[
+      'uamobile',
+    ]
 )

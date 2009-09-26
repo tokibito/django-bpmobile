@@ -4,3 +4,7 @@ syntax: glob
 *.orig
 django_bpmobile.egg-info
 Thumbs.db
+
+syntax: regexp
+build/
+dist/
