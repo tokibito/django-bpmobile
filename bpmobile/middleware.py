@@ -126,7 +126,7 @@ class BPMobileSessionMiddleware(object):
                         session_key = cache.set(self.get_cache_key(agent.guid), request.session.session_key, settings.SESSION_COOKIE_AGE)
         return response
 
-class BPMobileDenyBogusIP(object):
+class BPMobileDenyBogusIPMiddleware(object):
 
     def get_agent(self, request):
         return getattr(request, 'agent', uamobile.detect(request.META))
