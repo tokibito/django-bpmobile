@@ -1,4 +1,6 @@
+include LICENSE
 include COPYING_*
 include MANIFEST.in
+include requirements.txt
 recursive-include bpmobile/media *.gif
 recursive-include bpmobile/data *.ucm *.xml
