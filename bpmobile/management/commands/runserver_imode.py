@@ -37,7 +37,7 @@ class Command(BaseCommand):
         from django.core.servers.basehttp import run, AdminMediaHandler, WSGIServerException
         from django.core.handlers.wsgi import WSGIHandler
         if args:
-            raise CommandError('Usage is run_imode_server %s' % self.args)
+            raise CommandError('Usage is runserver_imode %s' % self.args)
         if not addrport:
             addr = ''
             port = '8000'
