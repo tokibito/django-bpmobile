@@ -24,5 +24,6 @@ setup (
     zip_safe=False,
     install_requires=[
       'uamobile',
-    ]
+    ],
+    test_suite='tests',
 )

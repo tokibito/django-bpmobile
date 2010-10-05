@@ -3,6 +3,8 @@ import os
 import re
 import xml.dom.minidom
 
+import uamobile as useragent
+
 from bpmobile.e4u import emoji4unicode as e4u_google
 
 e4u_google.Load()
