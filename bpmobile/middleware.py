@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 import re
+import uamobile
 
 from django.conf import settings
 from django.utils.cache import patch_vary_headers
@@ -8,8 +9,7 @@ from django.utils.http import cookie_date
 from django.core.cache import cache
 from django.http import HttpResponseRedirect, HttpResponseForbidden
 
-import uamobile
-import utils
+from bpmobile import utils
 
 class BPMobileMiddleware(object):
     def process_request(self, request):

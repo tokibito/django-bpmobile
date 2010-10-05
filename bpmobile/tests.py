@@ -2,10 +2,10 @@ from django.http import HttpRequest
 from django.conf import settings
 from django.template import Template, RequestContext
 
-from test import TestCase
-from middleware import BPMobileSessionMiddleware
-from templatetags import mobile
-from wsgi import DetectEncodingWSGIRequest
+from bpmobile.test import TestCase
+from bpmobile.middleware import BPMobileSessionMiddleware
+from bpmobile.templatetags import mobile
+from bpmobile.wsgi import DetectEncodingWSGIRequest
 
 class TemplateTagTest(TestCase):
     def test_emoji_tag_docomo(self):
