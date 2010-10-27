@@ -273,3 +273,44 @@ def gif_or_png(parser, token):
         raise template.TemplateSyntaxError("'gif_or_png' tag are no arguments")
     else:
         return GIFOrPNGNode()
+
+# fontsize指定でとりうる値
+ACCEPTABLE_FONTSIZE = ['small', 'medium', 'large']
+
+# キャリアとfontsize指定のマッピング
+CARRIER_TO_FONTSIZE = {
+    'docomo': {'small':'xx-small', 'medium':'medium', 'large':'xx-large'},
+    'ezweb': {'small':'x-small', 'medium':'medium', 'large':'x-large'},
+    'softbank': {'small':'small', 'medium':'medium', 'large':'large'},
+    }
+
+class MobileFontsizeNode(template.Node):
+    def __init__(self, fontsize):
+        self.fontsize = fontsize.lower()
+
+    def __repr__(self):
+        return "<MobileFontsizeNode>"
+
+    def render(self, context):
+        agent = context.get('agent', None)
+        if agent is None:
+            return self.fontsize
+
+        return CARRIER_TO_FONTSIZE[agent.carrier.lower()][self.fontsize]
+
+@register.tag
+def mobile_fontsize(parser, token):
+    """
+    {% mobile_fontsize "small" %}
+    """
+    args = token.split_contents()
+
+    if len(args) == 2:
+        fontsize = args[1].strip('"\'')
+        if fontsize not in ACCEPTABLE_FONTSIZE:
+            raise template.TemplateSyntaxError("'mobile_fontsize' tag require arguments below: small / normal / large")
+
+        return MobileFontsizeNode(fontsize)
+    else:
+        raise template.TemplateSyntaxError("'mobile_fontsize' tag require one arguments")
+
