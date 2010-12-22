@@ -179,7 +179,7 @@ MOBILE_INPUT_FORMAT_DOCOMO = {
 }
 MOBILE_INPUT_FORMAT_EZWEB = {
     MODE_HIRAGANA: {'istyle': '1', 'format': '*M'},
-    MODE_HANKANA: {'istyle': '2', 'format': '*m'},
+    MODE_HANKANA: {'istyle': '2', 'format': '*M'},
     MODE_ALPHABET: {'istyle': '3', 'format': '*m'},
     MODE_NUMERIC: {'istyle': '4', 'format': '*N'},
 }
