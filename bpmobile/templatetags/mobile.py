@@ -185,9 +185,9 @@ MOBILE_INPUT_FORMAT_EZWEB = {
 }
 MOBILE_INPUT_FORMAT_SOFTBANK = {
     MODE_HIRAGANA: {'istyle': '1', 'mode': 'hiragana'},
-    MODE_HANKANA: {'istyle': '2', 'format': 'hankakukana'},
-    MODE_ALPHABET: {'istyle': '3', 'format': 'alphabet'},
-    MODE_NUMERIC: {'istyle': '4', 'format': 'numeric'},
+    MODE_HANKANA: {'istyle': '2', 'mode': 'hankakukana'},
+    MODE_ALPHABET: {'istyle': '3', 'mode': 'alphabet'},
+    MODE_NUMERIC: {'istyle': '4', 'mode': 'numeric'},
 }
 class MobileInputFormatNode(template.Node):
     def __init__(self, field, mode):
