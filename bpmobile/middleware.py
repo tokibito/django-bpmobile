@@ -41,7 +41,7 @@ class BPMobileConvertResponseMiddleware(object):
 
         if not agent.is_nonmobile():
             encoding = 'UTF-8'
-            if response['content-type'].startswith('text'):
+            if response['content-type'].startswith('text/'):
                 c = unicode(response.content,'utf8')
                 if agent.is_docomo():
                     response.content = c.encode('cp932','replace')
@@ -53,7 +53,7 @@ class BPMobileConvertResponseMiddleware(object):
                 elif agent.is_softbank():
                     c = utils.RE_UNI_EMOJI_DOCOMO.sub(lambda m:utils.uni_docomo2softbank(m.group()), c)
                     response.content = c.encode('utf8','replace')
-            response['content-type'] = 'application/xhtml+xml; charset=%s' % encoding
+                response['content-type'] = 'application/xhtml+xml; charset=%s' % encoding
         
         return response
 
