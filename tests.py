@@ -67,6 +67,7 @@ class BaseTestCase(unittest.TestCase):
         self.agent_ezweb = useragent.ezweb.EZwebUserAgent({}, {})
         self.agent_softbank = useragent.softbank.SoftBankUserAgent({}, {})
 
+
 class TemplateTagTest(BaseTestCase):
     def test_emoji_tag_docomo(self):
         req = HttpRequest()
@@ -78,6 +79,7 @@ class TemplateTagTest(BaseTestCase):
         except:
             self.fail()
         self.failUnlessEqual(content, u'\ue63e')
+
 
 class SessionMiddlewareTest(BaseTestCase):
     def test_guid_redirect(self):
@@ -98,3 +100,6 @@ class SessionMiddlewareTest(BaseTestCase):
         self.failUnless(res, 'not redirected')
         self.failUnlessEqual(res.status_code, 302)
         self.failUnlessEqual(res['Location'], 'http://example.com/?abc=def&foo=bar&guid=on')
+
+
+
