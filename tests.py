@@ -51,6 +51,7 @@ def create_table(*models):
 import sys
 import unittest
 
+from django import forms
 from django.http import HttpRequest
 from django.conf import settings
 from django.template import Template, RequestContext
@@ -60,6 +61,10 @@ from bpmobile.middleware import BPMobileSessionMiddleware
 from bpmobile.templatetags import mobile
 from bpmobile.wsgi import DetectEncodingWSGIRequest
 from bpmobile.utils import useragent
+
+class MobileInputForm(forms.Form):
+    foo_field = forms.CharField(widget=forms.TextInput(attrs={'size': '30'}))
+
 
 class BaseTestCase(unittest.TestCase):
     def setUp(self):
@@ -99,6 +104,16 @@ class TemplateTagTest(BaseTestCase):
         c = RequestContext(req)
         content = t.render(c)
         self.assertEqual(content, '/testapp/?guid=on&amp;foo=123')
+
+    def test_mobile_input_format(self):
+        req = HttpRequest()
+        req.agent = self.agent_docomo
+        form = MobileInputForm()
+        t = Template('{% load mobile %}{% mobile_input_format form.foo_field hiragana %}')
+        c = RequestContext(req)
+        c['form'] = form
+        content = t.render(c)
+        self.assertEqual(content, '<input id="id_foo_field" style="-wap-input-format:\'*<ja:h>\'" type="text" name="foo_field" size="30" />')
 
 
 class SessionMiddlewareTest(BaseTestCase):
