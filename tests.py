@@ -4,7 +4,6 @@ Standalone django model test with a 'memory-only-django-installation'.
 You can play with a django model without a complete django app installation.
 http://www.djangosnippets.org/snippets/1044/
 """
-
 import os
 
 APP_LABEL = os.path.splitext(os.path.basename(__file__))[0]
@@ -16,10 +15,15 @@ global_settings.INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'bpmobile',
+    'testapp',
 )
 global_settings.DATABASE_ENGINE = "sqlite3"
 global_settings.DATABASE_NAME = ":memory:"
 global_settings.DATABASE_SUPPORTS_TRANSACTIONS = False
+global_settings.ROOT_URLCONF = 'testapp.urls'
+global_settings.TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
+    'bpmobile.context_processors.agent',
+)
 
 from django.core.management import sql
 
@@ -80,6 +84,22 @@ class TemplateTagTest(BaseTestCase):
             self.fail()
         self.failUnlessEqual(content, u'\ue63e')
 
+    def test_mobileurl_tag(self):
+        req = HttpRequest()
+        req.agent = self.agent_docomo
+        t = Template('{% load mobile %}{% mobileurl testapp_index _params=foo=123 %}')
+        c = RequestContext(req)
+        content = t.render(c)
+        self.assertEqual(content, '/testapp/?guid=on&foo=123')
+
+    def test_mobileurl_tag_as(self):
+        req = HttpRequest()
+        req.agent = self.agent_docomo
+        t = Template('{% load mobile %}{% mobileurl testapp_index  _params=foo=123 as foourl %}{{ foourl }}')
+        c = RequestContext(req)
+        content = t.render(c)
+        self.assertEqual(content, '/testapp/?guid=on&amp;foo=123')
+
 
 class SessionMiddlewareTest(BaseTestCase):
     def test_guid_redirect(self):
@@ -100,6 +120,5 @@ class SessionMiddlewareTest(BaseTestCase):
         self.failUnless(res, 'not redirected')
         self.failUnlessEqual(res.status_code, 302)
         self.failUnlessEqual(res['Location'], 'http://example.com/?abc=def&foo=bar&guid=on')
-
 
 

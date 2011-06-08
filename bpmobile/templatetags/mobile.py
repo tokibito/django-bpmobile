@@ -93,6 +93,8 @@ class MobileURLNode(URLNode):
 
     def render(self, context):
         url = super(MobileURLNode, self).render(context)
+        if self.asvar:
+            url = context[self.asvar]
         p, d, path, params, anc = urlparse.urlsplit(url)
         agent = context.get('agent', None)
         params_list = params and cgi.parse_qs(params) or {}
@@ -102,7 +104,7 @@ class MobileURLNode(URLNode):
             if val is None:
                 val = ''
             val = force_unicode(val, errors='replace')
-            if agent.is_softbank():
+            if agent and agent.is_softbank():
                 params_list[k] = val.encode('utf-8')
             else:
                 params_list[k] = val.encode('cp932')
@@ -138,10 +140,10 @@ def mobileurl(parser, token):
     guid = True
         
     if len(bits) > 2:
-        bits = iter(bits[2:])
+        bits = bits[2:]
         for bit in bits:
             if bit == 'as':
-                asvar = bits.next()
+                asvar = bits[-1]
                 break
             else:
                 for arg in bit.split(","):
