@@ -200,18 +200,19 @@ class MobileInputFormatNode(template.Node):
         return "<MobileInputFormatNode>"
 
     def render(self, context):
+        from copy import copy
         bd_field = self.field.resolve(context)
         agent = context.get('agent', None)
-        # widgetを切り替える
+        widget = copy(bd_field.field.widget)  # 元のwidgetは書き換えない
         if agent and agent.is_docomo():
-            widget = forms.widgets.TextInput(attrs=MOBILE_INPUT_FORMAT_DOCOMO[self.mode])
+            widget.attrs.update(MOBILE_INPUT_FORMAT_DOCOMO[self.mode])
         elif agent and agent.is_ezweb():
-            widget = forms.widgets.TextInput(attrs=MOBILE_INPUT_FORMAT_EZWEB[self.mode])
+            widget.attrs.update(MOBILE_INPUT_FORMAT_EZWEB[self.mode])
         elif agent and agent.is_softbank():
-            widget = forms.widgets.TextInput(attrs=MOBILE_INPUT_FORMAT_SOFTBANK[self.mode])
-        else:
-            widget = bd_field.field.widget
+            widget.attrs.update(MOBILE_INPUT_FORMAT_SOFTBANK[self.mode])
+        # InputFormatを適用したwidgetを使う
         return bd_field.as_widget(widget=widget)
+
 
 @register.tag
 def mobile_input_format(parser, token):
