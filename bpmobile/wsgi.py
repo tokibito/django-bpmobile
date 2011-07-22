@@ -1,5 +1,12 @@
+# coding: utf-8
+try:
+    from cStringIO import StringIO
+except ImportError:
+    from StringIO import StringIO
+
+from django import VERSION as DJANGO_VERSION
 from django.conf import settings
-from django.core.handlers.wsgi import *
+from django.core.handlers.wsgi import WSGIRequest
 from django.core.exceptions import ImproperlyConfigured
 
 def load_handler(path):
@@ -39,16 +46,13 @@ def detect(envrion):
 class UserAgentDetectEncoding(object):
     def detect(self, environ):
         encoding = None
-        # try:
-        import uamobile
-        agent = uamobile.detect(environ)
+        from bpmobile.utils import useragent
+        agent = useragent.detect(environ)
         if agent.is_nonmobile() or agent.is_softbank():
             encoding = 'utf-8'
         else:
             encoding = 'cp932'
         return encoding
-        # except:
-        #     pass
 
 class DetectEncodingWSGIRequest(WSGIRequest):
     """
@@ -60,25 +64,26 @@ class DetectEncodingWSGIRequest(WSGIRequest):
         if encoding:
             self._set_encoding(encoding)
 
-    def _get_raw_post_data(self):
-        try:
-            return self._raw_post_data
-        except AttributeError:
-            buf = StringIO()
+    if DJANGO_VERSION < (1, 3):
+        from django.core.handlers.wsgi import safe_copyfileobj
+        def _get_raw_post_data(self):
             try:
-                # CONTENT_LENGTH might be absent if POST doesn't have content at all (lighttpd)
-                content_length = int(self.environ.get('CONTENT_LENGTH', 0))
-            except (ValueError, TypeError):
-                # If CONTENT_LENGTH was empty string or not an integer, don't
-                # error out. We've also seen None passed in here (against all
-                # specs, but see ticket #8259), so we handle TypeError as well.
-                content_length = 0
-            if content_length > 0:
-                safe_copyfileobj(self.environ['wsgi.input'], buf,
-                        size=content_length)
-            # convert the raw byte string data.
-            self._raw_post_data = str(buf.getvalue())
-            buf.close()
-            return self._raw_post_data
-
-    raw_post_data = property(_get_raw_post_data)
+                return self._raw_post_data
+            except AttributeError:
+                buf = StringIO()
+                try:
+                    # CONTENT_LENGTH might be absent if POST doesn't have content at all (lighttpd)
+                    content_length = int(self.environ.get('CONTENT_LENGTH', 0))
+                except (ValueError, TypeError):
+                    # If CONTENT_LENGTH was empty string or not an integer, don't
+                    # error out. We've also seen None passed in here (against all
+                    # specs, but see ticket #8259), so we handle TypeError as well.
+                    content_length = 0
+                if content_length > 0:
+                    safe_copyfileobj(self.environ['wsgi.input'], buf,
+                            size=content_length)
+                # convert the raw byte string data.
+                self._raw_post_data = str(buf.getvalue())
+                buf.close()
+                return self._raw_post_data
+        raw_post_data = property(_get_raw_post_data)

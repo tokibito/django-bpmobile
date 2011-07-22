@@ -9,6 +9,7 @@ import os
 APP_LABEL = os.path.splitext(os.path.basename(__file__))[0]
 
 os.environ["DJANGO_SETTINGS_MODULE"] = "django.conf.global_settings"
+from django import VERSION as DJANGO_VERSION
 from django.conf import global_settings
 
 global_settings.INSTALLED_APPS = (
@@ -17,8 +18,18 @@ global_settings.INSTALLED_APPS = (
     'bpmobile',
     'testapp',
 )
-global_settings.DATABASE_ENGINE = "sqlite3"
-global_settings.DATABASE_NAME = ":memory:"
+
+if DJANGO_VERSION > (1, 2):
+    global_settings.DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': ':memory:',
+        }
+    }
+else:
+    global_settings.DATABASE_ENGINE = "sqlite3"
+    global_settings.DATABASE_NAME = ":memory:"
+
 global_settings.DATABASE_SUPPORTS_TRANSACTIONS = False
 global_settings.ROOT_URLCONF = 'testapp.urls'
 global_settings.TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
@@ -55,12 +66,17 @@ from django import forms
 from django.http import HttpRequest
 from django.conf import settings
 from django.template import Template, RequestContext
+from django.test import TestCase as DjangoTestCase
 
 #from bpmobile.test import TestCase
 from bpmobile.middleware import BPMobileSessionMiddleware
 from bpmobile.templatetags import mobile
 from bpmobile.wsgi import DetectEncodingWSGIRequest
 from bpmobile.utils import useragent
+
+UA_DOCOMO = 'DoCoMo/2.0 P903i'
+UA_EZWEB = 'KDDI-CA39 UP.Browser/6.2.0.13.1.5 (GUI) MMP/2.0'
+UA_SOFTBANK = 'SoftBank/1.0/930SH/SHJ001[/test] Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1'
 
 class MobileInputForm(forms.Form):
     foo_field = forms.CharField(widget=forms.TextInput(attrs={'size': '30'}))
@@ -72,13 +88,16 @@ class BaseTestCase(unittest.TestCase):
         from django.core import management
         management.call_command('syncdb', verbosity=1, interactive=False)
 
-        self.agent_docomo = useragent.docomo.DoCoMoUserAgent({}, {})
-        self.agent_ezweb = useragent.ezweb.EZwebUserAgent({}, {})
-        self.agent_softbank = useragent.softbank.SoftBankUserAgent({}, {})
+        self.agent_docomo = useragent.docomo.DoCoMoUserAgent({'HTTP_USER_AGENT': UA_DOCOMO}, {})
+        self.agent_ezweb = useragent.ezweb.EZwebUserAgent({'HTTP_USER_AGENT': UA_EZWEB}, {})
+        self.agent_softbank = useragent.softbank.SoftBankUserAgent({'HTTP_USER_AGENT': UA_SOFTBANK}, {})
 
 
 class TemplateTagTest(BaseTestCase):
     def test_emoji_tag_docomo(self):
+        """
+        絵文字タグのテスト(docomo)
+        """
         req = HttpRequest()
         req.agent = self.agent_docomo
         t = Template('{% load mobile %}{% emoji "BLACK SUN WITH RAYS" %}')
@@ -126,6 +145,7 @@ class SessionMiddlewareTest(BaseTestCase):
             'SERVER_PORT': 80,
             'QUERY_STRING': 'abc=def&foo=bar',
             'REQUEST_METHOD': 'GET',
+            'wsgi.input': None,
         })
         req.agent = self.agent_docomo
 
@@ -135,5 +155,3 @@ class SessionMiddlewareTest(BaseTestCase):
         self.failUnless(res, 'not redirected')
         self.failUnlessEqual(res.status_code, 302)
         self.failUnlessEqual(res['Location'], 'http://example.com/?abc=def&foo=bar&guid=on')
-
-
