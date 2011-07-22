@@ -1,4 +1,5 @@
-__version__ = '0.1'
+VERSION = (0, 2, 0, 'dev')
+__version__ = '0.2dev'
 
 from django.core.handlers.wsgi import WSGIHandler
 from bpmobile.wsgi import DetectEncodingWSGIRequest

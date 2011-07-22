@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
  
 setup (
     name='django-bpmobile',
-    version='0.1',
+    version='0.2',
     description='A helper application for Japanese mobile phones.',
     author='Shinya Okano',
     author_email='tokibito@gmail.com',
